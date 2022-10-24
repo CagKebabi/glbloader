@@ -1,0 +1,20 @@
+.box {
+  position: absolute;
+  cursor: move;
+  color: black;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  padding: 1em;
+  margin: auto;
+  user-select: none;
+}
+
+.box.box2 {
+  top: 100px;
+  left: 10px;
+}
+
+#canvas {
+  width: 400px;
+}
